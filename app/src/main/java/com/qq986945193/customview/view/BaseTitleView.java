@@ -20,8 +20,11 @@ import com.qq986945193.customview.R;
  * 1. 写一个类继承RelativeLayout(ViewGroup)
  * 2. 写布局文件
  * 3. 将布局添加到RelativeLayout中(initView方法)
- * 4. 增加api
- * 5. 自定义属性(1. values/attrs.xml, 2. 声明命名空间 , 3.在自定义view中配置属性, 4. 在自定义view中加载属性值 )
+ * 4. 自定义属性(1. values/attrs.xml, 2. 声明命名空间 , 3.在自定义view中配置属性, 4. 在自定义view中加载属性值 )
+ */
+
+/**
+ * 简单设置自定义View，没有添加命名空间
  */
 public class BaseTitleView extends RelativeLayout {
     private TextView tvCenterTitle;

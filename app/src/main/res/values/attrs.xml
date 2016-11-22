@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BaseView">
+        <attr name="center_title" format="string" />
+        <attr name="right_title" format="string" />
+    </declare-styleable>
+</resources>

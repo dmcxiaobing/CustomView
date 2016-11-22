@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:david="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="这是在java代码中设置问题"
+        android:textSize="16sp" />
+
     <com.qq986945193.customview.view.BaseTitleView
         android:id="@+id/main_base_title_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="这是在布局XML中设置内容"
+        android:textSize="16sp" />
+
+    <com.qq986945193.customview.view.BaseView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        david:center_title="XML中设置center"
+        david:right_title="XML中设置right" />
 
 </LinearLayout>
