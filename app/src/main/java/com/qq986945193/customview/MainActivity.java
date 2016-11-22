@@ -1,10 +1,7 @@
 package com.qq986945193.customview;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.qq986945193.customview.view.BaseTitleView;
 
