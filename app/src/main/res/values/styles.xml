@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--头部左侧返回按钮图片 。-->
+    <style name="iv_go_back_left_title">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:src">@mipmap/fanhui</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!--头部中间标题名称 。-->
+    <style name="tv_title_center_red">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_centerInParent">true</item>
+
+    </style>
+    <!--头部LinearLayout布局横向。-->
+    <style name="ll_all_title_red_theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">#f00</item>
+    </style>
+</resources>
